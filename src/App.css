@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Mono';
+}
+*::selection{
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar{
+  width: 0px;
+}
+.main{
+  background-image: url('./bg_img/yacheyka.png');
+  background-size: 50px 50px;
+  background-repeat: repeat;
+}
+.menu_item:hover .icon{
+  filter: invert(62%) sepia(41%) saturate(1599%) hue-rotate(62deg) brightness(105%) contrast(84%);
+}
+.menu_item:hover span{
+  color: #49d31f;
+}
