@@ -4,13 +4,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Noto Sans Mono';
+  scroll-behavior: smooth;
 }
 *::selection{
   background-color: transparent;
 }
 
 *::-webkit-scrollbar{
-  /* width: 0px; */
+  width: 0px;
 }
 .main{
   background-image: url('./bg_img/yacheyka.png');
