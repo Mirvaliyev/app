@@ -26,6 +26,13 @@ function App() {
             <Route exact path='/contact' element={<Contact />} />
             <Route exact path='*' element={<ErrorPage />} />
           </Routes>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus, repudiandae illo ad quae fugiat. Sequi neque, harum facilis veritatis numquam sed nemo dolorum fugiat dignissimos quisquam? Repellendus, a commodi.
+    Unde accusamus voluptatem autem ipsa dolorem quia. Magni corrupti accusamus mollitia numquam molestias ex, voluptate voluptatum inventore deserunt ipsa aliquam excepturi, rerum commodi illum ab alias ipsum. Qui, iusto facilis.
+    Laborum reprehenderit tempore dolores alias pariatur iste id provident architecto voluptate! Autem ullam recusandae labore animi, ipsa, dicta inventore, mollitia quis beatae ratione ea fugiat alias in itaque est id.
+    Quis doloremque vero, recusandae odio voluptatibus iusto ratione deserunt temporibus fugit placeat itaque soluta maxime laudantium quisquam quod modi nam, possimus sit nulla? Illum laborum assumenda consequatur reiciendis pariatur tenetur!
+    Tempora dolorum at velit minima facilis maiores suscipit neque nemo consequuntur nisi mollitia aut deserunt, dolorem placeat delectus culpa incidunt explicabo soluta! Consequatur suscipit obcaecati saepe quaerat et iure enim?
+          </p>
         </main>
       </BrowserRouter>
     </div>
