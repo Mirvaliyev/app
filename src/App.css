@@ -10,7 +10,7 @@
 }
 
 *::-webkit-scrollbar{
-  width: 0px;
+  /* width: 0px; */
 }
 .main{
   background-image: url('./bg_img/yacheyka.png');

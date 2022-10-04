@@ -14,7 +14,7 @@ function App() {
   return (
     <div className=' flex justify-self-stretch'>
       <BrowserRouter>
-        <nav className='z-50 nav bg-amber-100 md:shadow-[20px_0px_30px_rgba(0,0,0,0.3)] shadow-[0px_-15px_30px_rgba(0,0,0,0.2)] border-t-[1px] md:border-t-[0px] md:border-r-[1px] border-gray-500 fixed flex items-center md:block bottom-0 w-full h-[60px] md:left-0 md:top-0 md:h-screen md:w-[130px] overflow-y-scroll'>
+        <nav className='z-50 nav bg-amber-100 md:shadow-[20px_0px_30px_rgba(0,0,0,0.3)] shadow-[0px_-15px_30px_rgba(0,0,0,0.2)] border-t-[1px] md:border-t-[0px] md:border-r-[1px] border-gray-500 fixed md:block bottom-0 w-full h-[60px] md:left-0 md:top-0 md:h-screen md:min-h-screen md:w-[130px] overflow-y-scroll'>
           <Navbar />
         </nav>
         <main id='main' className='main fixed top-0 w-full h-[calc(100vh-60px)] md:right-0 md:top-0 md:h-screen md:w-[calc(100vw-130px)] bg-amber-100 overflow-y-scroll'>
